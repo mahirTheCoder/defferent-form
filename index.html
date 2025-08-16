@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Info</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>STUDENT INFO MANAGEMENT</h2>
+
+      <div class="card">
+        <h3>Add New Student Info</h3>
+        <div class="formRow">
+          <input type="text" id="name" placeholder="Name" />
+          <input type="text" id="roll" placeholder="Roll" />
+        </div>
+        <div class="formRow">
+          <input type="text" id="studentId" placeholder="ID" />
+          <input type="text" id="clas" placeholder="Class" />
+        </div>
+        <div class="formRow">
+          <input type="number" id="age" placeholder="Age" />
+        </div>
+        <button class="btn">Add Student</button>
+      </div>
+
+      <div class="card">
+        <h3>List Of Student</h3>
+        <ul class="studentList"></ul>
+        <p class="noStudent">No Student Found</p>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

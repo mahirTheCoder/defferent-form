@@ -1,0 +1,124 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #817093, #2575fc);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    width: 380px;
+    max-width: 90%;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.card {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.05);
+}
+
+.card h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.formRow {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.formRow input {
+    width: 100%;
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.btn {
+    background: linear-gradient(to right, #c8a1ec, #6366f1);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.noStudent {
+    text-align: center;
+    color: #777;
+}
+
+.studentCard {
+    background: linear-gradient(135deg, #ffffff, #ebedee);
+    border: 2px solid #cbcbcb;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.studentCard p {
+    margin: 4px 0;
+    font-weight: 700;
+}
+
+.btn_group {
+    margin-top: 10px;
+}
+
+.edit_btn, .delete_btn {
+    padding: 5px 10px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.edit_btn {
+    background-color: rgb(174, 118, 14);
+    color: white;
+}
+
+.delete_btn {
+    background-color: red;
+    color: white;
+}
+
