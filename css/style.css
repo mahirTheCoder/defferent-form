@@ -37,7 +37,7 @@ body {
 }
 
 .card {
-    background: #f9f9f9;
+    background: #f9f9f9d0;
     padding: 15px;
     border-radius: 8px;
     margin-bottom: 15px;
@@ -60,7 +60,7 @@ body {
     width: 100%;
     flex: 1;
     padding: 8px;
-    border: 1px solid #ddd;
+    border: 1px solid #ddddddc7;
     border-radius: 6px;
     font-size: 14px;
 }
